@@ -1,3 +1,5 @@
-BotPrototype\bin
-BotPrototype\obj
+BotPrototype/bin
+BotPrototype/bin/*
+BotPrototype/obj
+BotPrototype/obj/*
 .vs
