@@ -1,0 +1,13 @@
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\BotPrototype.exe.config
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\BotPrototype.exe
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\BotPrototype.pdb
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\EngineIoClientDotNet.dll
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\SocketIoClientDotNet.dll
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\WebSocket4Net.dll
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\obj\Debug\BotPrototype.csprojAssemblyReference.cache
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\obj\Debug\BotPrototype.csproj.CoreCompileInputs.cache
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\obj\Debug\BotPrototype.csproj.CopyComplete
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\obj\Debug\BotPrototype.exe
+C:\Users\bober\Source\repos\BotPrototype\BotPrototype\obj\Debug\BotPrototype.pdb
