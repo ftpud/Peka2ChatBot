@@ -21,7 +21,7 @@ namespace BotPrototype
                 Console.WriteLine($"{msg.from.name} сказал: {msg.text}");
             });
 
-            Bot.Start("56592"); // 126885 - ViewersBW
+            Bot.Start("126885"); // ID канала, 126885 - виверс
             Console.ReadLine();
         }
 
