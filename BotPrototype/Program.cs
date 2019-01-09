@@ -18,7 +18,7 @@ namespace BotPrototype
                 Console.WriteLine($"была вызвана команда /123 с аргументом: {argument}");
             });
             Bot.AddCommand("", (argument, msg) => {
-                Console.WriteLine($"{msg.from.name} сказал: {msg.text}");
+                Console.WriteLine($"{msg.From.Name} сказал: {msg.Text}");
             });
 
             Bot.Start("126885"); // ID канала, 126885 - виверс
