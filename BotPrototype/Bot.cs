@@ -68,7 +68,7 @@ namespace BotPrototype
                     socket.Emit("/chat/login", (b) =>
                     {
                         ConnectionStatus msg = Newtonsoft.Json.JsonConvert.DeserializeObject<ConnectionStatus>(b.ToString());
-                        Console.WriteLine($"Login status: {msg.status}");
+                        Console.WriteLine($"Login status: {msg.Status}");
                         isLoggedIn = true;
                         currentSocket = socket;
                     }, loginObject);
