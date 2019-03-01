@@ -20,8 +20,8 @@ namespace BotPrototype
             });
            
             Bot.AddCommand("", (argument, msg) => {
-                Console.WriteLine($"{msg.from.name} сказал: {msg.text}");
-                if (msg.text.ToLower().Contains("тест")) {
+                Console.WriteLine($"{msg.From.Name} сказал: {msg.Text}");
+                if (msg.Text.ToLower().Contains("тест")) {
                     Thread.Sleep(10);
                     Bot.PublishMessage("ответ (c) bot");
                 }
