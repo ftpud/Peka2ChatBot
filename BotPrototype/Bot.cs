@@ -53,8 +53,8 @@ namespace BotPrototype
             socket.On("/chat/message", b =>
             {
                 ChatMessage msg = JsonConvert.DeserializeObject<ChatMessage>(b.ToString());
-                var cmd = CommandList.Where(item => msg.text.StartsWith(item.Key)).First();
-                    cmd.Value.Invoke(msg.text.Substring(cmd.Key.Length), msg);
+                var cmd = CommandList.Where(item => msg.Text.StartsWith(item.Key)).First();
+                    cmd.Value.Invoke(msg.Text.Substring(cmd.Key.Length), msg);
             });
 
             socket.On(Socket.EVENT_CONNECT, (a) =>
@@ -85,7 +85,7 @@ namespace BotPrototype
             {
                 CurrentChannel = channelId;
                 ConnectionStatus msg = Newtonsoft.Json.JsonConvert.DeserializeObject<ConnectionStatus>(b.ToString());
-                Console.WriteLine($"Joined to channel with status: {msg.status}");
+                Console.WriteLine($"Joined to channel with status: {msg.Status}");
             }, loginObject);
         }
     }

@@ -25,6 +25,7 @@ namespace BotPrototype
                     Thread.Sleep(10);
                     Bot.PublishMessage("ответ (c) bot");
                 }
+                Console.WriteLine($"{msg.From.Name} сказал: {msg.Text}");
             });
             
             Bot.SetPublishDetails(
